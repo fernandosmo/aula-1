@@ -1,5 +1,5 @@
 import { Request, Response, Router } from 'express';
-import { iNewProduct, iProduct } from '../utils/enumerators';
+import { iNewProduct, iProduct } from '../utils/interfaces';
 
 const productRouter = Router();
 
